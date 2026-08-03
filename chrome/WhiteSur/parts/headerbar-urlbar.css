@@ -10,12 +10,16 @@
 	font-size: 1.2em !important;
 	min-height: 28px !important;
 }
+/* Position url text dead centre */
+.urlbar-input-box {
+	margin-top: -15px !important;
+}
 /* Centre URL bar text input*/
 #urlbar-input {
 	transition: transform .1s linear;
 	transform: translateX(50%);
 	position: absolute;
-	height:100%;
+	height:auto;
 	width: 50%;
 	text-align: center !important;
 }
